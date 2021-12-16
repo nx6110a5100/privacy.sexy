@@ -3,14 +3,22 @@
 > Enforce privacy & security best-practices on Windows and macOS, because privacy is sexy 🍑🍆
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./CONTRIBUTING.md)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/undergroundwires/privacy.sexy.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/undergroundwires/privacy.sexy/context:javascript)
+<!-- Code quality -->
+[![Language grade: JavaScript/TypeScript](https://img.shields.io/lgtm/grade/javascript/g/undergroundwires/privacy.sexy.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/undergroundwires/privacy.sexy/context:javascript)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3a70b7ef602e2264342c/maintainability)](https://codeclimate.com/github/undergroundwires/privacy.sexy/maintainability)
-[![Tests status](https://github.com/undergroundwires/privacy.sexy/workflows/Test/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
-[![Quality checks status](https://github.com/undergroundwires/privacy.sexy/workflows/Quality%20checks/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
-[![Security checks status](https://github.com/undergroundwires/privacy.sexy/workflows/Security%20checks/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
+<!-- Release -->
 [![Bump & release status](https://github.com/undergroundwires/privacy.sexy/workflows/Bump%20&%20release/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
-[![Deploy status](https://github.com/undergroundwires/privacy.sexy/workflows/Build%20&%20deploy/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
 [![Auto-versioned by bump-everywhere](https://github.com/undergroundwires/bump-everywhere/blob/master/badge.svg?raw=true)](https://github.com/undergroundwires/bump-everywhere)
+<!-- Deploy -->
+[![Site deployment status](https://github.com/undergroundwires/privacy.sexy/workflows/deploy-site/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
+[![Desktop application deployment status](https://github.com/undergroundwires/privacy.sexy/workflows/deploy-desktop/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
+<!-- Checks -->
+[![Quality checks status](https://github.com/undergroundwires/privacy.sexy/workflows/quality-checks/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
+[![Security checks status](https://github.com/undergroundwires/privacy.sexy/workflows/security-checks/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
+<!-- Tests -->
+[![unit tests status](https://github.com/undergroundwires/privacy.sexy/workflows/unit-tests/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
+[![integration tests status](https://github.com/undergroundwires/privacy.sexy/workflows/integration-tests/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
+[![e2e tests status](https://github.com/undergroundwires/privacy.sexy/workflows/e2e-tests/badge.svg)](https://github.com/undergroundwires/privacy.sexy/actions)
 
 ## Get started
 
@@ -87,5 +95,6 @@
 - CI/CD is fully automated for this repo using different GIT events & GitHub actions.
   - Versioning, tagging, creation of `CHANGELOG.md` and releasing is automated using [bump-everywhere](https://github.com/undergroundwires/bump-everywhere) action
 - Everything that's merged in the master goes directly to production.
+- 📖 Read more on [CI/CD pipelines](./docs/ci-cd.md)
 
 [![CI/CD to AWS with GitHub Actions](img/architecture/gitops.png)](.github/workflows/)
